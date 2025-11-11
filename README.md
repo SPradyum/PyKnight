@@ -49,6 +49,7 @@ Install flask by running:
 Install python chess by running:
     pip install python-chess[uci,gaviota]
 ```
+To Play *PyKnight* Run the _flask_app.py_ and follow through the Website link provided at the terminal (Website Link e.g -  * Running on http://127.0.0.1:5000)
 ---
 
 ## 🧠 Evaluation Strategy
