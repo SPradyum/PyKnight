@@ -14,32 +14,6 @@ It uses the `python-chess` library along with classical AI techniques, including
 - ✅ Material & positional evaluation  
 
 This engine is perfect for hobbyists, students, and researchers who want to understand how chess engines work or build their own GUI/AI on top of it.
-
----
-
-## 🚀 Features
-
-### ✅ **1. Minimax Search**
-Classic recursive minimax algorithm for computing optimal moves.
-
-### ✅ **2. Alpha-Beta Pruning**
-Improves search efficiency dramatically by pruning unnecessary branches.
-
-### ✅ **3. Iterative Deepening**
-Depth-by-depth search that returns the best move found at every stage.
-
-### ✅ **4. Board Evaluation**
-The engine uses:
-- Material scoring  
-- Piece-square tables for positional strength  
-- Checkmate/stalemate detection  
-
-### ✅ **5. Move Ordering**
-Sorts moves to help Alpha-Beta pruning work more efficiently.
-
-### ✅ **6. FEN Support**
-Initialize any game state instantly using a FEN string.
-
 ---
 ## Pip Install
 ```bash
@@ -49,9 +23,10 @@ Install flask by running:
 Install python chess by running:
     pip install python-chess[uci,gaviota]
 ```
+---
+## Run
 To Play *PyKnight* Run the _flask_app.py_ and follow through the Website link provided at the terminal (Website Link e.g -  * Running on http://127.0.0.1:5000)
 ---
-
 ## 🧠 Evaluation Strategy
 
 PyKnight calculates a score based on:
@@ -62,7 +37,24 @@ PyKnight calculates a score based on:
 - **Checkmate detection**
 
 ---
+## 🚀 Features
 
+### ✅ **1. Minimax Search**
+Classic recursive minimax algorithm for computing optimal moves.
+### ✅ **2. Alpha-Beta Pruning**
+Improves search efficiency dramatically by pruning unnecessary branches.
+### ✅ **3. Iterative Deepening**
+Depth-by-depth search that returns the best move found at every stage.
+### ✅ **4. Board Evaluation**
+The engine uses:
+- Material scoring  
+- Piece-square tables for positional strength  
+- Checkmate/stalemate detection  
+### ✅ **5. Move Ordering**
+Sorts moves to help Alpha-Beta pruning work more efficiently.
+### ✅ **6. FEN Support**
+Initialize any game state instantly using a FEN string.
+---
 ## 🏎️ Performance Notes
 
 The engine supports:
